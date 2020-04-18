@@ -8,14 +8,9 @@ Components use services, which provide specific functionality not directly relat
 
 ## Folder Structure
 [Angular folder structure](https://www.youtube.com/watch?v=_TLhUCjY9iA&feature=youtu.be)
-> e2e
-> node_modules
-> src
-  > app
-  > assets
-  > environments
-  ..index.html
-  ..styles.scss
+![folder structure](https://i.imgur.com/xxaQSpi.png)
+
+
 
 ## Components and Two-way Binding
 [Components](https://www.youtube.com/watch?v=23o0evRtrFI)
