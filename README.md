@@ -11,6 +11,7 @@ Components use services, which provide specific functionality not directly relat
 
 ## Components and Two-way Binding
 [Components](https://www.youtube.com/watch?v=23o0evRtrFI)
+
 [Two-way Binding](https://www.youtube.com/watch?v=DOWwWsbG1Sw)
 
 Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
