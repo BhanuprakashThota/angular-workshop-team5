@@ -32,11 +32,7 @@ Components use services, which provide specific functionality not directly relat
 1. index.html is the entry point to the app, and you generally don't touch this file.
 1. styles.scss is where your global CSS rulesets will reside.
 
-
-
-
-
-## Components and Two-way Binding
+## Components
 [Components](https://www.youtube.com/watch?v=23o0evRtrFI)
 
 The fundamental building blocks of your Angular app are the components. Components consist of 3 elements:
@@ -68,20 +64,34 @@ The fundamental building blocks of your Angular app are the components. Componen
 
 }
 
+## One-way Data Binding
+When you want to communicate data from the component logic to the template (or vice versa), this is called one-way data binding.
 
-[Two-way Binding](https://www.youtube.com/watch?v=DOWwWsbG1Sw)
+<h1>Welcome!</h1>
 
-Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
+<div class="play-container">
 
-The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.A template combines HTML with Angular markup that can modify HTML elements before they are displayed. Template directives provide program logic, and binding markup connects your application data and the DOM. 
+    <p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
 
-There are two types of data binding:
+</div>
 
-Event binding lets your app respond to user input in the target environment by updating your application data.
-Property binding lets you interpolate values that are computed from your application data into the HTML.
-Before a view is displayed, Angular evaluates the directives and resolves the binding syntax in the template to modify the HTML elements and the DOM, according to your program data and logic. Angular supports two-way data binding, meaning that changes in the DOM, such as user choices, are also reflected in your program data.
+We have a few things happening here:
 
- Templates can use pipes to improve the user experience by transforming values for display. For example, use pipes to display dates and currency values that are appropriate for a user's locale. Angular provides predefined pipes for common transformations, and you can also define your own pipes.
+1. (click) - This is a click event, which means if the element is clicked, it will call the function countClick() which doesn't yet exist.
+1. {{ clickCounter }} this is interpolation. clickCounter is a property (not yet defined) that will display data that's retrieved from the component.
+
+## Two-way Data Binding
+The best way to demonstrate the concept of data binding is to do it with a form element. 
+
+<div class="play-container">
+
+    <p>
+        <input type="text" [(ngModel)]="name"><br>
+
+        <strong>You said: </strong> {{ name }}
+    </p>
+
+</div>
 
 ## Angular App Fetch Calls
  
