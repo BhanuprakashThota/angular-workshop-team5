@@ -45,6 +45,23 @@ The fundamental building blocks of your Angular app are the components. Componen
 - The component decorator, which are various properties for your component. The component decorator includes locations to your component's template and CSS location.
 - The component logic, where your code resides.
 
+
+ import { Component } from '@angular/core';
+
+ @Component({
+   selector: 'app-root',
+
+   templateUrl: './app.component.html',
+
+   styleUrls: ['./app.component.scss']
+})
+
+export class AppComponent {
+
+  title = 'myapp';
+}
+
+
 [Two-way Binding](https://www.youtube.com/watch?v=DOWwWsbG1Sw)
 
 Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
