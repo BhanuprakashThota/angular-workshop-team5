@@ -28,8 +28,8 @@ Components use services, which provide specific functionality not directly relat
   
         ..styles.scss
 
-1. The e2e folder is for end to end testing. We won't be covering testing in this course, but I will do a separate tutorial on that.
-1. node_modules is a folder you will never watch to touch, as it contains the project's dependencies.
+1. The e2e folder is for end to end testing.
+1. node_modules is a folder you will never want to touch, as it contains the project's dependencies.
 1. src contains much of your code.
 1. app is where you will spend the most of your time writing your Angular 8 code. It includes the routing, components, and more.
 1. index.html is the entry point to the app, and you generally don't touch this file.
