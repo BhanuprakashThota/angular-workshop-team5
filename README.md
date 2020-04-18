@@ -12,6 +12,7 @@ Components use services, which provide specific functionality not directly relat
 ## Components and Two-way Binding
 [Components](https://www.youtube.com/watch?v=23o0evRtrFI)
 [Two-way Binding](https://www.youtube.com/watch?v=DOWwWsbG1Sw)
+
 Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
 
 The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.A template combines HTML with Angular markup that can modify HTML elements before they are displayed. Template directives provide program logic, and binding markup connects your application data and the DOM. There are two types of data binding:
@@ -20,6 +21,8 @@ Event binding lets your app respond to user input in the target environment by u
 Property binding lets you interpolate values that are computed from your application data into the HTML.
 Before a view is displayed, Angular evaluates the directives and resolves the binding syntax in the template to modify the HTML elements and the DOM, according to your program data and logic. Angular supports two-way data binding, meaning that changes in the DOM, such as user choices, are also reflected in your program data.
 
-Your templates can use pipes to improve the user experience by transforming values for display. For example, use pipes to display dates and currency values that are appropriate for a user's locale. Angular provides predefined pipes for common transformations, and you can also define your own pipes.
+ Templates can use pipes to improve the user experience by transforming values for display. For example, use pipes to display dates and currency values that are appropriate for a user's locale. Angular provides predefined pipes for common transformations, and you can also define your own pipes.
+
+## Angular App Fetch Calls
  
 
