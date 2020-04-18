@@ -17,15 +17,6 @@ Every Angular application has at least one component, the root component that co
 
 The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.A template combines HTML with Angular markup that can modify HTML elements before they are displayed. Template directives provide program logic, and binding markup connects your application data and the DOM. 
 
-@Component({
-selector:    'app-hero-list',
-templateUrl: './hero-list.component.html',
-providers:  [ HeroService ]
-})
-export class HeroListComponent implements OnInit {
-/* . . . */
-}
-
 There are two types of data binding:
 
 Event binding lets your app respond to user input in the target environment by updating your application data.
