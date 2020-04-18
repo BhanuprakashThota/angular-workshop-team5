@@ -15,11 +15,11 @@ Components use services, which provide specific functionality not directly relat
 
 > src
 
-  > app
+    > app
 
-  > assets
+    > assets
 
-  > environments
+    > environments
 
   ..index.html
   
