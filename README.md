@@ -9,7 +9,20 @@ Components use services, which provide specific functionality not directly relat
 ## Folder Structure
 [Angular folder structure](https://www.youtube.com/watch?v=_TLhUCjY9iA&feature=youtu.be)
 
-![folder structure](https://i.imgur.com/xxaQSpi.png)
+> e2e
+
+> node_modules
+> src
+
+  > app
+
+  > assets
+
+  > environments
+
+  ..index.html
+  
+  ..styles.scss
 
 1. e2e(end-to-end) – This folder contains test cases for testing the complete application along with its specific configuration files.
 1. node_modules – Contains all the node-modules used in the angular application.
@@ -31,6 +44,12 @@ Components use services, which provide specific functionality not directly relat
 
 ## Components and Two-way Binding
 [Components](https://www.youtube.com/watch?v=23o0evRtrFI)
+
+The fundamental building blocks of your Angular app are the components. Components consist of 3 elements:
+
+- The imports
+- The component decorator, which are various properties for your component. The component decorator includes locations to your component's template and CSS location.
+- The component logic, where your code resides.
 
 [Two-way Binding](https://www.youtube.com/watch?v=DOWwWsbG1Sw)
 
