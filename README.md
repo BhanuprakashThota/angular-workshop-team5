@@ -21,26 +21,18 @@ Components use services, which provide specific functionality not directly relat
 
         > environments
 
-    ..index.html
+        ..index.html
   
-    ..styles.scss
-    
+        ..styles.scss
 
-1. e2e(end-to-end) – This folder contains test cases for testing the complete application along with its specific configuration files.
-1. node_modules – Contains all the node-modules used in the angular application.
-1. src – Complete source code of the application resides in src folder.
-1. app – root component of the application.
-1. assets – contains all the images or resources used in the application.
-1. environments – contains build configuration environments of the application. We can create any target environment and specify its configuration here.
-1. index.html – This is the main html page which is rendered when someone opens your website or application.
-1. main.ts – This is the main entry point of the angular application which compiles the AppModule and renders the specified bootstrap component in the browser.
-1. styles.css – Contains all the styles to be used as globally in the application.
-1. .editorconfig – This file is used for defining consistent configuration.
-1. angular.json – This file is mainly used for specifying configuration of CLI. It includes configuration of build, serve, test, lint, e2e commands which are used by @angular-cli.
-1. karma.conf.js – This specifies configuration for karma, which is used for testing angular applications.
-1. package.json – Specifies all the project dependencies.
-1. tsconfig.json – defines configuration of TypeScript in project.
-1. tslint.json – defines TSLint configuration for project. TSLint is an extensible static analysis tool for TypeScript.
+1. The e2e folder is for end to end testing. We won't be covering testing in this course, but I will do a separate tutorial on that.
+1. node_modules is a folder you will never watch to touch, as it contains the project's dependencies.
+1. src contains much of your code.
+1. app is where you will spend the most of your time writing your Angular 8 code. It includes the routing, components, and more.
+1. index.html is the entry point to the app, and you generally don't touch this file.
+1. styles.scss is where your global CSS rulesets will reside.
+
+
 
 
 
