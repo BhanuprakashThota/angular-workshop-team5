@@ -91,6 +91,38 @@ The best way to demonstrate the concept of data binding is to do it with a form 
 
 </div>
 
+In order for ngModel to work correctly, we need to import it 
+
+import { FormsModule } from '@angular/forms';
+
+@NgModule
+
+({
+  ...
+  imports: 
+  [
+     BrowserModule,
+
+     AppRoutingModule,
+
+     FormsModule       // add this
+
+  ],
+
+  providers: [],
+
+  bootstrap: [AppComponent]
+
+})
+
+Next, we have to define the name property
+
+clickCounter: number = 0; 
+
+name: string = ''; 
+
+If you save it and begin to type within the textfield, you will see that it displays in the line beneath it in real time. This is two-way data binding because it's both setting and retreiving the property to and from the component/template!
+
 ## Angular App Fetch Calls
  
 
