@@ -9,21 +9,22 @@ Components use services, which provide specific functionality not directly relat
 ## Folder Structure
 [Angular folder structure](https://www.youtube.com/watch?v=_TLhUCjY9iA&feature=youtu.be)
 
-> e2e
+    > e2e
 
-> node_modules
+    > node_modules
 
-> src
+    > src
 
-    > app
+        > app
 
-    > assets
+        > assets
 
-    > environments
+        > environments
 
-  ..index.html
+    ..index.html
   
-  ..styles.scss
+    ..styles.scss
+    
 
 1. e2e(end-to-end) – This folder contains test cases for testing the complete application along with its specific configuration files.
 1. node_modules – Contains all the node-modules used in the angular application.
