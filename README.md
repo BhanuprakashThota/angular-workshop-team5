@@ -67,8 +67,6 @@ The fundamental building blocks of your Angular app are the components. Componen
 ## One-way Data Binding
 When you want to communicate data from the component logic to the template (or vice versa), this is called one-way data binding.
 
-<h1>Welcome!</h1>
-
 <div class="play-container">
 
     <p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
