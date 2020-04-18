@@ -12,6 +12,7 @@ Components use services, which provide specific functionality not directly relat
 > e2e
 
 > node_modules
+
 > src
 
   > app
