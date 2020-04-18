@@ -1,6 +1,7 @@
 # angular-workshop-team5
 
 ![Angular](Images/angular-14a0f6532f.png)
+![gitimage](Images/github.png)
 ## Introduction
 Angular is an app-design framework and development platform for creating efficient and sophisticated single-page apps. Angular is a complete rewrite from the same team that built AngularJS.The architecture of an Angular application relies on certain fundamental concepts. The basic building blocks are NgModules, which provide a compilation context for components. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.
 
