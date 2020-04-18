@@ -48,17 +48,24 @@ The fundamental building blocks of your Angular app are the components. Componen
 
  import { Component } from '@angular/core';
 
- @Component({
-   selector: 'app-root',
+ @Component
+ 
+ ({
 
-   templateUrl: './app.component.html',
+    selector: 'app-root',
 
-   styleUrls: ['./app.component.scss']
-})
+    templateUrl: './app.component.html',
 
-export class AppComponent {
+    styleUrls: ['./app.component.scss']
+
+ })
+
+ export class AppComponent 
+
+{
 
   title = 'myapp';
+
 }
 
 
