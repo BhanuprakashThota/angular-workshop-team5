@@ -128,6 +128,6 @@ name: string = '';
 
 If you save it and begin to type within the textfield, you will see that it displays in the line beneath it in real time. This is two-way data binding because it's both setting and retreiving the property to and from the component/template!
 
-## Angular App Fetch Calls
+## Angular API Fetch Calls
  
 
